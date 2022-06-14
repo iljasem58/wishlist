@@ -44,7 +44,7 @@ public class WishlistController {
 
     // update wish
     @PutMapping("/wishlist/{id}")
-    public ResponseEntity<Wishlist> updateEmployee(@PathVariable Long id, @RequestBody Wishlist wishlistDetails){
+    public ResponseEntity<Wishlist> updateWishlist(@PathVariable Long id, @RequestBody Wishlist wishlistDetails){
         Wishlist wishlist = wishlistRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Wish not exist with id :" + id));
 
