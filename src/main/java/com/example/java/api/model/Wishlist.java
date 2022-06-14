@@ -45,6 +45,7 @@ public class Wishlist {
     public void setWishlistName(String wishlistName) {
         this.wishlistName = wishlistName;
     }
+
     public Integer getWishlistRate() {
         return wishlistRate;
     }
