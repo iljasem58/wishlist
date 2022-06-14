@@ -1,0 +1,20 @@
+{
+  "users": [{
+        "type": "user",
+        "id": 150709,
+        "name": "johnsmith",
+        "email": "jsmith@example.com"
+      }, {
+        "type": "user",
+        "id": 150710,
+        "name": "angelinasmith",
+        "email": "asmith@example.com"
+      }, {
+        "type": "user",
+        "id": 150910,
+        "name": "adamivanov",
+        "email": "aivanov@another.org"
+      }
+  ]
+}
+
